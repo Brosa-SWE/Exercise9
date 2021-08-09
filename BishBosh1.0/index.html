@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <p>See Console.log</p>
+    <script>
+
+        let bishbosh = "";
+
+        for (i = 1; i <= 10; i++) {
+            bishbosh = i;
+            if (i % 3 == 0) { bishbosh = "Bish"; }
+            if (i % 4 == 0) { bishbosh = "Bosh"; }
+            if (i % 3 == 0 & i % 4 == 0) { bishbosh = "Bish-Bosh"; }
+            console.log(bishbosh);
+        }
+
+        console.log(" ")
+
+    </script>
+</body>
+
+</html>
